@@ -1,0 +1,7 @@
+bin/
+target/
+.idea/
+Slots.iml
+.project
+.settings/
+.classpath
