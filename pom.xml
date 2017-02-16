@@ -87,12 +87,6 @@
 				            	<shadedPattern>com.antarescraft.kloudy.slotslite.promo</shadedPattern>
 			                </relocation>
 			              </relocations>
-			              <exlusions>
-			              	<exclusion>
-			              	  <pattern>com.antarescraft.kloudy.slots.Slots.java</pattern>
-			              	  <shadedPattern>com.antarescraft.kloudy.slotslite</shadedPattern>
-			              	</exclusion>
-			              </exlusions>
                           <outputFile>${plugin-folder}/SlotsLite.jar</outputFile>
                         </configuration>
                     </execution>

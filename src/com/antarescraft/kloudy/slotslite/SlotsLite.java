@@ -1,18 +1,8 @@
 package com.antarescraft.kloudy.slotslite;
 
-import com.antarescraft.kloudy.hologuiapi.HoloGUIPlugin;
+import com.antarescraft.kloudy.slots.Slots;
 
-public class SlotsLite extends HoloGUIPlugin
+public class SlotsLite extends Slots
 {
-	@Override
-	public void onEnable()
-	{
-		
-	}
 	
-	@Override
-	public void onDisable()
-	{
-		
-	}
 }
