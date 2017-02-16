@@ -1,0 +1,17 @@
+name: SlotsLite
+main: com.antarescraft.kloudy.slotslite.SlotsLite
+version: 1.0
+author: Kloudy
+website: www.antarescraft.com
+
+depend: [HoloGUIApi, Vault]
+
+commands:
+  slots:
+    description: used to define commands for the SlotLite plugin
+
+permissions:
+
+  slots.play:
+    description: Allows a player to play SlotsLite
+    default: true
