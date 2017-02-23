@@ -26,7 +26,7 @@ public class LiteCommandEvent extends CommandEvent
 	
 	@Override
 	@CommandHandler(description = "Opens the Slots GUI",
-			mustBePlayer = true, permission = "slots.play", subcommands = "play")
+			mustBePlayer = true, permission = "slotslite.play", subcommands = "play")
 	public void play(CommandSender sender, String[] args)
 	{
 		Player player = (Player)sender;
