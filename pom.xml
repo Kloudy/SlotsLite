@@ -75,19 +75,18 @@
                             <goal>shade</goal>
                         </goals>
 			            <configuration>
-			              <outputFile>${plugin-folder}/SlotsLite.jar</outputFile>
+			              <outputFile>${plugin-folder}/SlotsLite-${version}.jar</outputFile>
 			              <shadedArtifactAttached>false</shadedArtifactAttached>
 			              <relocations>
 			                <relocation>
 			                  <pattern>com.antarescraft.kloudy.slots</pattern>
-			                  <shadedPattern>com.antarescraft.kloudy.slotslite</shadedPattern>
+			                  <shadedPattern>com.antarescraft.kloudy.lite.slots</shadedPattern>
 			                </relocation>
 			                <relocation>
 				            	<pattern>com.antarescraft.kloudy.promo</pattern>
-				            	<shadedPattern>com.antarescraft.kloudy.slotslite.promo</shadedPattern>
+				            	<shadedPattern>com.antarescraft.kloudy.lite.slots.promo</shadedPattern>
 			                </relocation>
 			              </relocations>
-                          <outputFile>${plugin-folder}/SlotsLite.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
