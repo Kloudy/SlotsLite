@@ -33,7 +33,8 @@ public class LiteCommandEvent extends CommandEvent
 				
 		if(!slots.isPlaying(player))
 		{
-			HoloGUIPromo.openPromoPage(slots, player, new SlotsPageModel(slots, slots.getGUIPage("slot-machine"), player));
+			HoloGUIPromo.openPromoPage(slots, player, "https://www.spigotmc.org/members/kloudy.42303/",
+					new SlotsPageModel(slots, slots.getGUIPage("slot-machine"), player));
 		
 			slots.isPlaying(player, true);
 		}
