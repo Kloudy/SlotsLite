@@ -8,8 +8,8 @@ public class SlotsLite extends Slots
 	@Override
 	public void onEnable()
 	{
-		getCommand("slotslite").setExecutor(new LiteCommandEvent(this));
-		
 		super.onEnable();
+		
+		getCommand("slotslite").setExecutor(new LiteCommandEvent(this));
 	}
 }
