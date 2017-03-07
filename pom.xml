@@ -75,7 +75,7 @@
                             <goal>shade</goal>
                         </goals>
 			            <configuration>
-			              <outputFile>${plugin-folder}/HoloSlotsLite-v${version}.jar</outputFile>
+			              <outputFile>${plugin-folder}/HoloSlotsLite.jar</outputFile>
 			              <shadedArtifactAttached>false</shadedArtifactAttached>
 			              <relocations>
 			                <relocation>
